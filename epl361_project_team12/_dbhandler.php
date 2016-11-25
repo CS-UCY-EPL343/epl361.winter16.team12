@@ -1,8 +1,8 @@
 <?php
 
 $mysql_host = 'localhost';
-$mysql_user = 'smkana01';
-$mysql_pass = 'bravoo=11';
+$mysql_user = 'root';
+$mysql_pass = 'root';
 $mysql_db = 'epl361_project';
 
 // connect to mysql
