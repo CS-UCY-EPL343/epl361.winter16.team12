@@ -1,0 +1,24 @@
+This project is a prototype of a web-based application for our customer Mr Andreas Ioannides chairman at AAISCS company.
+This application is going to be useful for Smokefreebrain project where the company takes part.Researchers may use this application
+to store and edit any details which will be collected through this project.
+The application at this time is connected to a local database to make sure that general functions works correctly.
+At this prototype we implement login and logout functions,create subject function and store subject's answers from two questionaires(Rosenberg and Fingerstrom) which will be used
+at project.
+At first is the login part where a researcher gives his username and password to log in.
+If those two data exist in database the application sends a message to researcher that is connected by remind him his username.
+Then is the subject selection part. There are three choices which are SaveID,Create a subject,Insert from excel
+If a subject is not exist at database there is a choice which is says create a subject where a researcher have to click to create one.
+When he clicks the application displays a form where the researcher gives subject personal details.
+Details will be saved in an encrypted form at the database to secure personal details.
+When the researcher store the details the application sends back subject ID which the researcher have to insert it at the previous screen and click saveID selection
+After that on screen a researcher can choose for which questionaire wants to give answers.He must give answers for all questionaires before exists the application.
+All the answers are saved in database after the insertion from researcher.
+The last choice at the first screen is Insert from Excel.The application stores subject personal details and answers by reading them from excel file.
+All the details will be inserted at the same time.
+When the researcher is done with the insertion he press the logout button to exit the application
+
+To view the system use google chrome or mozila firefox browser preferably and open the index.php file.
+You can use the following credentials to login
+
+user1     1234
+user2     4321
